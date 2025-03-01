@@ -1,10 +1,15 @@
 package umg.edu.gt.test.ClaseArrays;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
+import umg.edu.gt.desarrollo.estructuradedatos2025.EstructuraDeDatos2025;
 import umg.edu.gt.desarrollo.estructuradedatos2025.ejercicios.EjercicioArrays;
 
 class ClaseArrays {
+    private static final Logger logger = LogManager.getLogger(EstructuraDeDatos2025.class);
 
     @Test
     void testRiquezaMaxima() {
